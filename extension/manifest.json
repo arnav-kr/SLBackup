@@ -1,0 +1,50 @@
+{
+  "name": "Sololearn Backup",
+  "short_name": "SL Backup",
+  "version": "1.0.1.0",
+  "version_name": "Version 1.0.1.0",
+  "manifest_version": 3,
+  "description": "Download your Sololearn codes as a zip file.",
+  "author": "Arnav",
+  "homepage_url": "https://github.com/arnav-kr/SLBackup",
+  "minimum_chrome_version": "88",
+  "offline_enabled": false,
+  "icons": {
+    "48": "icons/logo_x48.png",
+    "72": "icons/logo_x72.png",
+    "96": "icons/logo_x96.png",
+    "128": "icons/logo_x128.png",
+    "192": "icons/logo_x192.png",
+    "384": "icons/logo_x384.png",
+    "512": "icons/logo_x512.png",
+    "1024": "icons/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.sololearn.com/*/profile/*"
+      ],
+      "js": [
+        "js/loader.js"
+      ],
+      "css": [
+        "css/content.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "css/*",
+        "js/*"
+      ],
+      "matches": [
+        "*://*.sololearn.com/*"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "*://*.sololearn.com/*/profile/*"
+  ]
+}
