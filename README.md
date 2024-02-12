@@ -1,4 +1,4 @@
-![Sololearn Backup Extension](https://github.com/arnav-kr/json-formatter/blob/main/branding/marquee_promo_tile.png?raw=true)
+![Sololearn Backup Extension](https://github.com/arnav-kr/SLBackup/blob/main/branding/marquee_promo_tile.png?raw=true)
 
 
 # Sololearn Backup Extension
