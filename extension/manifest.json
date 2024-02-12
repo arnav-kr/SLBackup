@@ -2,7 +2,7 @@
   "name": "Sololearn Backup",
   "short_name": "SL Backup",
   "version": "1.0.1.0",
-  "version_name": "Version 1.0.1.0",
+  "version_name": "Version 1.0.2.0",
   "manifest_version": 3,
   "description": "Download your Sololearn codes as a zip file.",
   "author": "Arnav",

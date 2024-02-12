@@ -150,7 +150,7 @@ function setProgressText(text) {
 
 let isButtonAdded = false;
 async function main() {
-  let regex = (/https?:\/\/(www\.)?sololearn\.com\/(.*\/)?profile\/([0-9]+)/gmi);
+  let regex = (/https?:\/\/(www\.)?sololearn\.com\/(.*\/)?[p|P]rofile\/([0-9]+)/gmi);
   let match = regex.exec(window.location.href);
   if (!match) return;
   let userid = match[3];
